@@ -1,0 +1,84 @@
+.content {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.content-main {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 0.5px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 30px 45px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.content-main .content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+}
+.content-main .content-header .title {
+    font-size: 20px;
+    transform: translateX(-20px);
+}
+.content-main .content-header .title i {
+    color: #808080;
+    cursor: pointer;
+}
+.content-box {
+    gap: 60px;
+}
+.left-content-box {
+    width: 100%;
+}
+.content-box-item {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.left-content-box .content-box-item label {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+.input {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.left-content-box .content-box-item .icon {
+    position: absolute;
+    top: 45px;
+    right: 15px;
+}
+
+.icon-file {
+    font-size: 30px;
+    background: #ffffff;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 20px;
+    color: #808080;
+    cursor: pointer;
+    margin: 0;
+}
+.input-file {
+    display: none;
+    visibility: none;
+}
+.right-content-box .content-box-item label {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 11px;
+}

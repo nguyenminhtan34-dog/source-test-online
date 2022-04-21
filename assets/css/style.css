@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+/* Css for login */
+
+.login-container {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/login-bg.png);
+    background-size: 100%;
+    background-position: right;
+    overflow: hidden;
+    position: absolute;
+}
+.form-login {
+    width: 450px;
+    height: 545px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-logo {
+    width: 219px;
+    height: 73px;
+    margin: 50px auto;
+}
+.form-content .form-item input {
+    width: 90%;
+    height: 55px;
+    outline: none;
+    border: 0.5px solid #ddd8d8;
+    border-radius: 8px;
+    padding: 0 40px;
+    margin: 10px auto;
+}
+
+.icon-left {
+    color: #0952a3;
+    position: relative;
+    left: 30px;
+}
+.icon-right {
+    color: #0952a3;
+    position: relative;
+    right: 30px;
+}
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.form-control span {
+    color: #808080;
+}
+.form-control a {
+    color: #0952a3;
+    text-decoration: none;
+}
+button {
+    width: 90%;
+    padding: 20px 0;
+    margin: 50px auto;
+    background-color: #0952a3;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
